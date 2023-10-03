@@ -5,6 +5,8 @@ pipeline {
   maven 'Maven-3.9.4'
 }
     stages 
+    {
+        
         stage('Clean') {
             steps {
                 dir("${env.WORKSPACE}/Ch05/05_04-challenge-create-artifacts-and-reports"){

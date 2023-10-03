@@ -10,7 +10,7 @@ pipeline {
                 git branch: 'main',
                     changelog: false,
                     poll: false,
-                    url: 'https://github.com/elvislittle/create-artifacts-and-reports-challenge1.git'
+                    url: 'https://github.com/elvislittle/create-artifacts-and-reports-challenge.git'
             }
         }
         stage('Clean') {
